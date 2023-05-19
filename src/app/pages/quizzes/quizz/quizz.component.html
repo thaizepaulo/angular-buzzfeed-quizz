@@ -25,4 +25,12 @@
     <h1>O Seu resultado é:</h1>
     <p>{{answerSelected}}</p>
   </div>
+
+  <div class="quizz_return">
+    <button *ngIf=finished class="btn-return"
+      (click)="index()"
+    >
+      Retornar
+    </button>
+  </div>
 </div>

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import quizz_questions from "../../../../assets/data/quizz_questions.json"
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-quizz',
@@ -23,7 +23,10 @@ export class QuizzComponent implements OnInit {
 
   finished:boolean = false
 
-  constructor(private activeRoute: ActivatedRoute) {
+  constructor(
+    private activeRoute: ActivatedRoute,
+    private navegador: Router
+  ) {
     this.activeRoute.params.subscribe(
       res => console.log(res)
     )
@@ -78,6 +81,10 @@ export class QuizzComponent implements OnInit {
     })
 
     return result
+  }
+
+  index() {
+    this.navegador.navigate(['/'])
   }
 
 }

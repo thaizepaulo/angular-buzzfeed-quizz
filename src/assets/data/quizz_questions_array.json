@@ -1,0 +1,387 @@
+[
+  {
+    "id":1,
+    "originalUrl": "",
+    "title": "Você seria um heroi ou vilão ?",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual super poder você escolheria ?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Raios-Lasers",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Voar",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Explodir coisas",
+            "alias": "A"
+          },
+          {
+            "id": 4,
+            "name": "Curar feridas",
+            "alias": "B"
+          },
+          {
+            "id": 5,
+            "name": "Soltar fogo pelas mãos",
+            "alias": "A"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Quem você salvaria primeiro ?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Crianças",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Idosos",
+            "alias": "A"
+          },
+          {
+            "id": 3,
+            "name": "Não saberia escolher",
+            "alias": "B"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Não destruir prédios",
+            "alias": "B"
+          },
+          {
+            "id": 2,
+            "name": "Socar a cara do inimigo",
+            "alias": "A"
+          },
+          {
+            "id": 3,
+            "name": "Não sujar meu traje",
+            "alias": "A"
+          },
+          {
+            "id": 4,
+            "name": "Não deixar ninguém se ferir",
+            "alias": "B"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Qual o seu maior foco ?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Ficar rico com poderes",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Salvar a cidade",
+            "alias": "B"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Qual o seu apelido de super ser ?",
+        "options": [
+          {
+            "id": 1,
+            "name": "O Terrivel",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Amigo da vizinhança",
+            "alias": "B"
+          }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Você muito provavelmente seria um super vilão!",
+      "B": "Você muito provavelmente seria um super Herói!"
+    }
+  },
+  {
+    "id":2,
+    "originalUrl": "https://pt.quizur.com/quiz/voce-e-mais-homem-de-ferro-ou-capitao-america-TGeq",
+    "title": "Você é mais Homem de Ferro ou Capitão América?",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual destas palavras melhor descreve você?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Inovador",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Altruísta",
+            "alias": "B"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Qual é a sua abordagem em relação à autoridade e às regras?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Questiono e desafio as autoridades quando acredito que estão erradas",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Respeito e sigo as regras estabelecidas",
+            "alias": "B"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Você prefere trabalhar sozinho ou em equipe?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Sozinho",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Equipe",
+            "alias": "B"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Em uma discussão, como você lida com opiniões diferentes das suas?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Defendo minha opinião com argumentos lógicos e técnicos",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Ouço Atentamente as opiniões dos outros e busco um consenso",
+            "alias": "B"
+          }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Homem de Ferro: Você tem mais características do Homem de Ferro. Você é estratégico, habilidoso tecnicamente e não tem medo de desafiar as autoridades quando acredita que estão erradas. Sua abordagem é baseada na inovação e no trabalho individual.",
+      "B": "Capitão América: Você tem mais características do Capitão América. Você é altruísta, valoriza a coragem e os valores morais. Respeita as regras estabelecidas, acredita no trabalho em equipe e busca ouvir diferentes perspectivas."
+    }
+  },
+  {
+    "id":3,
+    "originalUrl": "https://pt.quizur.com/quiz/qual-e-a-sua-bebida-preferida-TGp7",
+    "title": "Qual é a sua bebida preferida?",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual dessas bebidas mais combina com você?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Vinho",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Café",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Suco",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Leite com Tody",
+            "alias": "D"
+          },
+          {
+            "id": 5,
+            "name": "Limonada",
+            "alias": "E"
+          },
+          {
+            "id": 6,
+            "name": "Não tenho bebiba favorita/todos",
+            "alias": ""
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "O que você beberia em uma festa?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Vinho porque sou maior de idade",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Café porque eu gosto",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Suco eu acho mais nutritivo",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Leite com Tody... AMO!",
+            "alias": "D"
+          },
+          {
+            "id": 5,
+            "name": "Limonada gosto de me refrescar e etc",
+            "alias": "E"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual bebida você bebe quando você acorda?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Vinho",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Café",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Suco",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Leite com Tody",
+            "alias": "D"
+          },
+          {
+            "id": 5,
+            "name": "Limonada",
+            "alias": "E"
+          },
+          {
+            "id": 6,
+            "name": "Não bebo nada/tudo amooo!",
+            "alias": ""
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Qual seria a bebida da luluca",
+        "options": [
+          {
+            "id": 1,
+            "name": "Vinho porque eu gosto muito",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Café porque acho mais decente",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Suco acho delicioso",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Leite com Tody acho gostoso pra tomar de manhã",
+            "alias": "D"
+          },
+          {
+            "id": 5,
+            "name": "Limonada acho maravilhoso",
+            "alias": "E"
+          },
+          {
+            "id": 6,
+            "name": "Nada/tudo",
+            "alias": ""
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "question": "Qual bebida você acha mais gostosa",
+        "options": [
+          {
+            "id": 1,
+            "name": "Vinho acho chique",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Café acho bom",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Suco vou sempre me hidratar",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Leite com Tody acho melhor",
+            "alias": "D"
+          },
+          {
+            "id": 5,
+            "name": "Limonada gosto de sentir gelo na minha boca",
+            "alias": "E"
+          },
+          {
+            "id": 6,
+            "name": "Não gosto de nenhuma/todas",
+            "alias": ""
+          }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Vinho",
+      "B": "Café",
+      "C": "Suco",
+      "D": "Leite com Tody",
+      "E": "Limonada"
+    }
+  }
+]

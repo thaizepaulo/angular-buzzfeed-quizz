@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import quizz_questions from "../../../assets/data/quizz_questions.json"
+import quizz_questions from "../../../../assets/data/quizz_questions.json"
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-quizz',
@@ -22,7 +23,11 @@ export class QuizzComponent implements OnInit {
 
   finished:boolean = false
 
-  constructor() { }
+  constructor(private activeRoute: ActivatedRoute) {
+    this.activeRoute.params.subscribe(
+      res => console.log(res)
+    )
+   }
 
   ngOnInit(): void {
     if(quizz_questions){

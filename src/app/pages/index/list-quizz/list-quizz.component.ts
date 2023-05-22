@@ -22,8 +22,8 @@ export class ListQuizzComponent implements OnInit {
     }
   }
 
-  quizz() {
-    this.navegador.navigate(['/quizz'])
+  quizz(id:number) {
+    this.navegador.navigate([`/quizz/${id}`])
   }
 
 }

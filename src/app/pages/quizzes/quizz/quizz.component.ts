@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import quizz_questions from "../../../../assets/data/quizz_questions.json"
+import quizzes from "../../../../assets/data/quizz_questions_array.json"
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
@@ -10,7 +10,11 @@ import { ActivatedRoute, Router } from '@angular/router';
 
 export class QuizzComponent implements OnInit {
 
+  indexSelecionado:number = 0
+
   title:string = ""
+
+  quizz_questions: any
 
   questions:any
   questionSelected:any
@@ -28,23 +32,23 @@ export class QuizzComponent implements OnInit {
     private navegador: Router
   ) {
     this.activeRoute.params.subscribe(
-      res => console.log(res)
+      res => this.indexSelecionado = res["id"]
     )
    }
 
   ngOnInit(): void {
-    if(quizz_questions){
-      this.finished = false
-      this.title = quizz_questions.title
+    if (quizzes) {
+      this.quizz_questions = quizzes[this.indexSelecionado]
 
-      this.questions = quizz_questions.questions
+      this.finished = false
+      this.title = this.quizz_questions.title
+
+      this.questions = this.quizz_questions.questions
       this.questionSelected = this.questions[this.questionIndex]
 
       this.questionIndex = 0
       this.questionMaxIndex = this.questions.length
 
-      console.log(this.questionIndex)
-      console.log(this.questionMaxIndex)
     }
 
   }
@@ -63,7 +67,7 @@ export class QuizzComponent implements OnInit {
     }else{
       const finalAnswer:string = await this.checkResult(this.answers)
       this.finished = true
-      this.answerSelected = quizz_questions.results[finalAnswer as keyof typeof quizz_questions.results ]
+      this.answerSelected = this.quizz_questions.results[finalAnswer as keyof typeof this.quizz_questions.results ]
     }
   }
 

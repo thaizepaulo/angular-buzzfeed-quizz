@@ -6,7 +6,7 @@ import { QuizzComponent } from './pages/quizzes/quizz/quizz.component';
 
 const routes: Routes = [
   {path: '', component: ListQuizzComponent, pathMatch: 'full'},
-  {path: 'quizz', component: QuizzComponent},
+  {path: 'quizz/:id', component: QuizzComponent},
   {path: '**', redirectTo: ''}
 ];
 

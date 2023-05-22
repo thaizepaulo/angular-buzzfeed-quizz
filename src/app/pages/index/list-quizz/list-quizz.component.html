@@ -16,7 +16,7 @@
 
     <button class="btn-option"
       *ngFor="let question of quizzes; let i = index"
-      (click)="quizz()"
+      (click)="quizz(i)"
     >
       {{question.title}}
     </button>
